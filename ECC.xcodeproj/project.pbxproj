@@ -84,7 +84,6 @@
 		32612F031E2696500092F1E1 /* ECC */ = {
 			isa = PBXGroup;
 			children = (
-				32612F371E26B8550092F1E1 /* ECC.entitlements */,
 				32612F041E2696500092F1E1 /* AppDelegate.swift */,
 				32612F291E2697600092F1E1 /* LoginViewController.swift */,
 				32612F351E26B1E00092F1E1 /* Models */,
@@ -138,6 +137,7 @@
 		32612F361E26B2010092F1E1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				32612F371E26B8550092F1E1 /* ECC.entitlements */,
 				32612F0D1E2696500092F1E1 /* LaunchScreen.storyboard */,
 				32612F0B1E2696500092F1E1 /* Assets.xcassets */,
 				32612F101E2696500092F1E1 /* Info.plist */,
