@@ -102,8 +102,8 @@ class AlbumListViewController: UIViewController, UITableViewDataSource, UITableV
     func setupTabNavigationBar() {
         view.backgroundColor = UIColor.white
         self.tabBarItem = UITabBarItem(title: "Albums", image: UIImage(named: "gallery_outline"), selectedImage: UIImage(named: "gallery_filled"))
-        self.tabBarController?.tabBar.tintColor = UIColor.white
-        self.tabBarController?.tabBar.backgroundImage = UIImage.imageWithColor(color: UIColor.black.withAlphaComponent(OPACITY))
+        self.tabBarController?.tabBar.tintColor = UIColor.black
+        self.tabBarController?.tabBar.backgroundImage = UIImage.imageWithColor(color: UIColor.white.withAlphaComponent(0.55))
         self.tabBarController?.tabBar.shadowImage = UIImage()
         self.tabBarController?.tabBar.isTranslucent = true
         self.tabBarController?.tabBar.isHidden = false
