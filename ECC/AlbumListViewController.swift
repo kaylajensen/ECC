@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  OTB
+//  ECC
 //
 //  Created by Kayla Jensen on 12/19/16.
 //  Copyright © 2016 kaylajensencoding. All rights reserved.

@@ -1,6 +1,6 @@
 //
 //  Constants.swift
-//  OTB
+//  ECC
 //
 //  Created by Kayla Jensen on 12/20/16.
 //  Copyright © 2016 kaylajensencoding. All rights reserved.
@@ -22,19 +22,18 @@ public func isiPad() -> Bool {
     return isIPad
 }
 
-// Olde Towne Bakery Coordinates
-public var bakeryLat = "41.494346"
-public var bakeryLon = "-90.527613"
+// Bakery Coordinates
+public var bakeryLat = "35.196018"
+public var bakeryLon = "-80.784934"
 
-public var tagLineString = "Providing the Charlotte area's best \ncakes and pastries."
-public var phoneInfoString = "Please call the bakery at\n(704) 258-1209 to place any orders!"
+public var tagLineString = "Providing the Charlotte area's best \ncakes and desserts."
+public var phoneInfoString = "Please call the bakery at\n(704)258-1209 to place any orders!"
 public var emailString = "ecc@gmail.com"
-public var pricingString = "Cake sizes range from 4 inch to 18 inch round starting at $7.95 to $81.95 Plus extra charges based on flavor and decoration. (this doesn't include birthday tier or wedding cake prices)\nOur sheet cakes come in 8x12, 12x16, and 16x25 and start at $24.95 Based on size flavor and decoration.\nOur famous sugar cookies come in two sizes,\n*Stencil (about 3-4 inches) that can have writing or stenciled designs at $9.00 a dozen or\n*Rainbow (about 2-3 inches) that can only have colors sprayed at $7.50 a dozen"
 public var monFriHours = "Monday - Friday: 12:00PM - 6:00PM"
 public var satHours = "Saturday: Closed"
 public var sunHours = "Sunday: Closed"
 public var addressString = "4332 Commonwealth Avenue\nCharlotte, North Carolina"
-public var phoneString = "(704) 258-1209"
+public var phoneString = "(704)258-1209"
 
 public var screenHeight = UIScreen.main.bounds.size.height
 

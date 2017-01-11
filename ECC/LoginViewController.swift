@@ -1,6 +1,6 @@
 //
 //  LoginViewController.swift
-//  OldeTowne
+//  ECC
 //
 //  Created by Kayla Jensen on 9/22/16.
 //  Copyright © 2016 kaylajensencoding. All rights reserved.

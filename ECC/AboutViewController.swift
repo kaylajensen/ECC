@@ -1,6 +1,6 @@
 //
 //  AboutViewController.swift
-//  OTB
+//  ECC
 //
 //  Created by Kayla Jensen on 12/21/16.
 //  Copyright © 2016 kaylajensencoding. All rights reserved.
@@ -274,7 +274,7 @@ class AboutViewController: UIViewController {
     
     func openMaps() {
         AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
-        let url = URL(string: "http://maps.apple.com/?q=Olde+Towne+Bakery&sll=\(bakeryLat),\(bakeryLon)")
+        let url = URL(string: "http://maps.apple.com/?q=Ella's+Celestial+Cakes&sll=\(bakeryLat),\(bakeryLon)")
         if #available(iOS 10.0, *) {
             UIApplication.shared.open(url!, options: [:], completionHandler: nil)
         } else {

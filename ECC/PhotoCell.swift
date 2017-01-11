@@ -1,6 +1,6 @@
 //
 //  PhotoCell.swift
-//  OldeTowne
+//  ECC
 //
 //  Created by Kayla Jensen on 10/9/16.
 //  Copyright © 2016 kaylajensencoding. All rights reserved.
