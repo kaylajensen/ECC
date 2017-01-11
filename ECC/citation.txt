@@ -1,0 +1,20 @@
+References
+
+Icons:
+Albums outline tab icon - https://icons8.com/web-app/1712/gallery
+Albums filled tab icon - https://icons8.com/web-app/1712/gallery#filled
+Favorites outline tab icon - https://icons8.com/web-app/87/like
+Favorites filled tab icon - https://icons8.com/web-app/12306/like
+About outline tab icon - https://icons8.com/web-app/489/shop
+About filled tab icon - https://icons8.com/web-app/489/shop#filled
+Info icon - https://icons8.com/web-app/77/Info
+Plus icon - https://icons8.com/web-app/11153/plus-math
+Back icon - https://icons8.com/web-app/1806/back
+Logout icon - https://icons8.com/web-app/for/all/logout
+Close icon - https://icons8.com/web-app/for/all/close
+
+Images:
+Background pink cupcakes image - https://pixabay.com/en/cupcakes-party-pastry-dessert-1825136/
+Olde Towne Bakery logo - Olde Towne Bakery need image release
+
+Developed and Designed by Kayla Jensen
