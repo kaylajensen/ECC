@@ -46,6 +46,7 @@
 		32612F2F1E2697700092F1E1 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		32612F301E2697700092F1E1 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		32612F331E2698BF0092F1E1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		32612F371E26B8550092F1E1 /* ECC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ECC.entitlements; sourceTree = "<group>"; };
 		B27B594581F9669F78A4F0CB /* Pods-ECC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ECC/Pods-ECC.debug.xcconfig"; sourceTree = "<group>"; };
 		CDC59A9012C73381403CA757 /* Pods_ECC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ECC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -83,6 +84,7 @@
 		32612F031E2696500092F1E1 /* ECC */ = {
 			isa = PBXGroup;
 			children = (
+				32612F371E26B8550092F1E1 /* ECC.entitlements */,
 				32612F041E2696500092F1E1 /* AppDelegate.swift */,
 				32612F291E2697600092F1E1 /* LoginViewController.swift */,
 				32612F351E26B1E00092F1E1 /* Models */,
@@ -198,6 +200,11 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = A6MQZ7F58L;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -413,6 +420,7 @@
 			baseConfigurationReference = B27B594581F9669F78A4F0CB /* Pods-ECC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ECC/ECC.entitlements;
 				DEVELOPMENT_TEAM = A6MQZ7F58L;
 				INFOPLIST_FILE = ECC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -427,6 +435,7 @@
 			baseConfigurationReference = 0DBD656AFA5204BB99536024 /* Pods-ECC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ECC/ECC.entitlements;
 				DEVELOPMENT_TEAM = A6MQZ7F58L;
 				INFOPLIST_FILE = ECC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
