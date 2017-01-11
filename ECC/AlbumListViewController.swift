@@ -22,7 +22,7 @@ class AlbumListViewController: UIViewController, UITableViewDataSource, UITableV
         view.contentMode = .scaleAspectFit
         view.clipsToBounds = true
         view.layer.shadowColor = UIColor.black.cgColor
-        view.layer.shadowOpacity = 0.6
+        view.layer.shadowOpacity = 0.4
         view.layer.shadowRadius = 15.0
         view.layer.masksToBounds =  false
         return view
@@ -247,7 +247,7 @@ extension AlbumListViewController {
             cell.myTextLabel.textColor = UIColor.black
             cell.myDetailsTextLabel.textColor = UIColor.black
         } else {
-            cell.backgroundColor = UIColor.black.withAlphaComponent(0.45)
+            cell.backgroundColor = UIColor.clear
             cell.myTextLabel.textColor = UIColor.white
             cell.myDetailsTextLabel.textColor = UIColor.white
         }

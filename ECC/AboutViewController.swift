@@ -298,7 +298,7 @@ class AboutViewController: UIViewController {
         view.contentMode = .scaleAspectFit
         view.clipsToBounds = true
         view.layer.shadowColor = UIColor.black.cgColor
-        view.layer.shadowOpacity = 0.6
+        view.layer.shadowOpacity = 0.4
         view.layer.shadowRadius = 15.0
         view.layer.masksToBounds =  false
         return view
